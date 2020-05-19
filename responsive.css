@@ -1,0 +1,283 @@
+@media screen and (max-width: 740px){
+
+body{
+	margin: 0px;
+}
+
+.container{
+	display:flex;
+	flex-direction: column;
+}
+
+/*Aside*/
+aside img{
+	border:6px solid #546E7A;
+	display: flex;
+	margin-top: -10px;
+	border-radius: 100%;
+	margin-bottom: -50px;
+}
+
+.nom_metier{
+	font-size: 0.8em;
+	display: block;
+}
+
+h1{
+	font-size: 1.7em;
+	font-weight: 100;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+aside h3{
+	text-align: center;
+	background-color: #424242; /* material design grey 800 */
+}
+
+.coordonnees{ /*CONTACT*/
+	text-align: center;
+}
+
+.moi{
+	margin-top: -60px;
+	margin-bottom: -280px;
+}
+
+.moi p{
+	line-height: 1.5em;
+}
+
+.mes_loisirs{ /* Déplacé en footer */
+	display: none;
+}
+
+.loisir_icons{ /* déplacé en footer */
+	display: none;
+}
+
+/*MAIN*/
+main{
+	margin-top: 5px;
+}
+
+.nom{
+	display: none;
+}
+
+section{
+	margin-top: -50px;
+}
+
+li{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0px #26C6DA;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	margin-left: -30px;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 2px solid #26C6DA;
+	padding-bottom: 10px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h3 span{
+	font-size: 1.2em;
+	text-align: justify-all;
+
+}
+h4{
+	margin-top: 2%;
+}
+
+.recommandations{
+	display: flex;
+	font-size: 0.8em;
+	line-height: 0px;
+	flex-direction: column;
+}
+
+.partie_droite{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	flex: 2; 
+}
+
+.partie_gauche{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+h3.loisir{
+	display: block;
+	font-size: 1.5em;
+	margin-top: 8px;
+	border-bottom: 0px;
+	background-color: #424242; /* material design grey 800 */
+	margin-left: -50px;
+	margin-right: -40px;
+	padding-top: 6px;
+
+}
+
+.icons{
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 55px; 
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+}
+
+
+@media screen and (min-width: 741px) and (max-width: 1200px){
+
+.container{
+	display:flex;
+	flex-direction: column;
+}
+
+/*Aside*/
+aside img{
+	border: 7px solid #546E7A;
+	display: flex;
+	margin-top: 0px;
+	border-radius: 100%;
+	margin-bottom: -50px;
+}
+
+.nom_metier{
+	font-weight: 200;
+	display: block;
+}
+
+h1{
+	font-size: 2.4em;
+	font-weight: 200;
+}
+
+h2{
+	font-size: 2.2em;
+}
+
+aside h3{
+	text-align: center;
+	background-color: #424242;
+}
+
+.coordonnees{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.moi{
+	margin-top: -60px;
+	margin-bottom: -280px;
+
+}
+.moi p{
+	line-height: 1.5em;
+}
+
+.mes_loisirs{
+	display: none;
+}
+
+.loisir_icons{
+	display: none;
+}
+
+/*MAIN*/
+main{
+	margin-top: 5px;
+}
+
+.nom{
+	display: none;
+}
+
+section{
+	margin-top: -50px;
+}
+
+li{
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 10px 0px #26C6DA;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius:5px;
+	margin-left: -30px;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 2px solid #26C6DA;
+	padding-bottom: 10px;
+	margin-top: 100px;
+	color: #26C6DA;
+	text-align: center;
+}
+
+h4{
+	margin-top: 3%;
+}
+
+.recommandations{
+	display: flex;
+	font-size: 1em;
+	line-height: 0px;
+}
+
+.partie_droite{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	flex: 2; 
+}
+
+.partie_gauche{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+	margin-left: 8px;
+}
+
+h3.loisir{
+	display: block;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 8px;
+	border-bottom: 0px;
+	background-color: #424242;
+	margin-left: -50px;
+	margin-right: -40px;
+	padding-top: 6px;
+}
+
+.icons{
+	display: block;
+	display: flex;
+    justify-content: space-between;
+    font-size: 3em;
+    margin-left: 55px;	
+ 	margin-bottom: 20px;
+}
+}
