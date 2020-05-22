@@ -72,12 +72,15 @@ aside h3{
     justify-content: space-between;
     margin-left: 55px;
     margin-top: 15px;
-	font-size: 2.5em;
+	font-size: 3.5em;
     line-height: 20px;
 }
 
 aside .fas{
 	color: #FFF;
+	display : flex;
+	border:7px solid #424242;
+	border-radius: 100%;
 }
 
 /*Main*/
